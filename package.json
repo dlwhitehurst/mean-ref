@@ -1,0 +1,16 @@
+{
+  "name": "ref",
+  "version": "1.0.0",
+  "description": "This application is my reference MEAN stack application",
+  "main": "application.js",
+  "dependencies": {
+    "connect": "^3.4.1",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David L. Whitehurst",
+  "license": "Apache-2.0"
+}
