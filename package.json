@@ -5,7 +5,8 @@
   "main": "application.js",
   "dependencies": {
     "connect": "^3.4.1",
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "promise": "^7.1.1"
   },
   "devDependencies": {},
   "scripts": {
