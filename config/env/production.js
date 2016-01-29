@@ -13,5 +13,5 @@
 
 module.exports = {
   // production options
-
+	sessionSecret: 'productionMumboJumbo'
 };

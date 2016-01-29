@@ -6,8 +6,15 @@
 
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
-var express = require('./config/express');
-var app = express();
+/*
+ warning: always load the mongoose config first to provide
+ every module after access to our model objects
+*/
+var mongoose = require('./config/mongoose'),
+  express = require('./config/express');
+
+var db = mongoose();
+var app = express(); 
 
 app.listen(3000);
 module.exports = app;

@@ -13,5 +13,6 @@
 
 module.exports = {
   // development options
-
+	db: 'mongodb://localhost/mean-book',
+	sessionSecret: 'developmentMumboJumbo'
 };
