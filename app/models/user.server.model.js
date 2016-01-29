@@ -4,10 +4,9 @@
 // written by David L. Whitehurst
 // January 28, 2016
 
-var mongoose = require('mongoose'),
-Schema = mongoose.Schema;
+var mongoose = require('mongoose');
 
-var UserSchema = new Schema({
+var UserSchema = new mongoose.Schema({
 
 	firstName: String,
 	lastName: String,

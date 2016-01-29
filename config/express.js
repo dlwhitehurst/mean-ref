@@ -11,7 +11,7 @@ var config = require('./config'),
   bodyParser = require('body-parser'),
   methodOverride = require('method-override'),
   session = require('express-session'),
-cookieParser = require('cookie-parser');
+  cookieParser = require('cookie-parser');
 
 module.exports = function() {
 	
