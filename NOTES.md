@@ -1,1 +1,2 @@
-Having difficulty with the Promise. A good definition would be a javascript object that lets asynchronous methods return values like sychronous methods. Instead of the final value, the asynchronous methods returns a promise of having a value at some point in the future.
+#Notes
+Nothing at this time. But I'll use this to capture information.
