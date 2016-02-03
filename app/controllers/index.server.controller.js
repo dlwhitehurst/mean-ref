@@ -19,7 +19,7 @@ exports.render = function(req, res) {
     }
 	
 	res.render('index', {
-		title: 'Hello World Dynamic',
+		title: 'Bend (Backend) Resource API',
 		views: sess.views
 	})
 }
