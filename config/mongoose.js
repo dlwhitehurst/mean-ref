@@ -6,6 +6,7 @@ var config = require('./config'),
 	   
 	   // register schema models here
 	   require('../app/models/user.server.model');
+	   require('../app/models/post.server.model');
 	   
 	   // let our administrator know we're connected
 	   console.log('Connected to mongodb://localhost:27017/mean-book');
